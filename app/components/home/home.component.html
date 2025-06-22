@@ -1,0 +1,3 @@
+<h1>Bienvenido a la Biblioteca Unidos en Cristo 📖✝️</h1>
+<p *ngIf="auth.estaAutenticado()">Usuario autenticado. <button (click)="logout()">Cerrar sesión</button></p>
+<p *ngIf="!auth.estaAutenticado()">Por favor inicia sesión para gestionar los libros.</p>

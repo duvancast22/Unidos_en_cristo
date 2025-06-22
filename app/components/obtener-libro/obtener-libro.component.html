@@ -1,0 +1,9 @@
+<h2>Buscar libros por título</h2>
+<input [(ngModel)]="titulo" placeholder="Ingrese título del libro" />
+<button (click)="buscarLibro()">Buscar</button>
+
+<ul>
+  <li *ngFor="let libro of resultados">
+    <strong>{{ libro.titulo }}</strong> - {{ libro.autor }} (ISBN: {{ libro.isbn }})
+  </li>
+</ul>

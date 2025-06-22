@@ -1,0 +1,10 @@
+<h2>Actualizar libro</h2>
+<form [formGroup]="libroForm" (ngSubmit)="actualizarLibro()">
+  <label>Título:</label>
+  <input formControlName="titulo" /><br />
+  <label>Autor:</label>
+  <input formControlName="autor" /><br />
+  <label>Categoría:</label>
+  <input formControlName="categoria" /><br />
+  <button type="submit">Actualizar</button>
+</form>

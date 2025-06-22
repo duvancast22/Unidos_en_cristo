@@ -1,0 +1,12 @@
+<h2>Agregar nuevo libro</h2>
+<form [formGroup]="libroForm" (ngSubmit)="guardarLibro()">
+  <label>Título:</label>
+  <input formControlName="titulo" /><br />
+  <label>Autor:</label>
+  <input formControlName="autor" /><br />
+  <label>ISBN:</label>
+  <input formControlName="isbn" /><br />
+  <label>Categoría:</label>
+  <input formControlName="categoria" /><br />
+  <button type="submit">Guardar</button>
+</form>

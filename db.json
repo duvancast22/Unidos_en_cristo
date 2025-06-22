@@ -1,0 +1,32 @@
+{
+  "libros": [
+    {
+      "id": 1,
+      "titulo": "Una vida con propósito",
+      "autor": "Rick Warren",
+      "isbn": "9780310337508",
+      "categoria": "Devocional"
+    },
+    {
+      "id": 2,
+      "titulo": "El poder de la oración",
+      "autor": "Stormie Omartian",
+      "isbn": "9789584527702",
+      "categoria": "Oración"
+    },
+    {
+      "id": 3,
+      "titulo": "Teología Sistemática",
+      "autor": "Wayne Grudem",
+      "isbn": "9780829767520",
+      "categoria": "Teología"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "admin",
+      "password": "cristo123"
+    }
+  ]
+}
