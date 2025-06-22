@@ -64,7 +64,7 @@ src/
 
 ## 🧑‍💻 Autor
 
-**Claudio Romero Trillos**
+**DUBAN SANTIAGO CASTAÑEDA ROBLEDO**
 
 ## 📌 Nota
 
